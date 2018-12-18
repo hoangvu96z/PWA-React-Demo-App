@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "staging": "react-pwa-demo-app",
+    "default": "react-pwa-demo-app"
+  }
+}
