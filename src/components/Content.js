@@ -10,6 +10,7 @@ export default class Content extends Component {
          <p className="card-text">A Progressive Web App (PWA) TEST TEST TEST</p>
          <p className="card-text">A Progressive Web App (PWA) is a web app that uses advanced web capabilities to provide an app-like experience to users. Unlike traditional applications, Progressive web apps are a hybrid of regular web pages (or websites) and a mobile application.</p>
          <a href="http://hvtekshop.com/wp" className="btn btn-primary">Shop now</a>
+       
          </div>
       </div>
     )

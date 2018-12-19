@@ -55,13 +55,13 @@ self.addEventListener('fetch', function(event) {
 });
 
 // Here we can push notification
-self.addEventListener('push', event => {
-    if(event && event.data){
-        var data = event.data.json();
-        if( data.method === "pushMessage"){
-            event.waitUntil(self.registration.showNotification("Test App", {
-                body: data.message
-            }));
-        }
-    }
-});
+// self.addEventListener('push', event => {
+//     if(event && event.data){
+//         var data = event.data.json();
+//         if( data.method === "pushMessage"){
+//             event.waitUntil(self.registration.showNotification("Test App", {
+//                 body: data.message
+//             }));
+//         }
+//     }
+// });

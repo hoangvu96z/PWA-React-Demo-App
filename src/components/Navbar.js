@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 export default class Navbar extends Component {
   render() {
     return (
@@ -11,7 +10,7 @@ export default class Navbar extends Component {
          <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
                <li className="nav-item">
-               <a className="nav-link" href="http://hvtekshop.com/wp/category/news/">News</a>
+                   <a className="nav-link" href="http://hvtekshop.com/wp/category/news/">News</a>
                </li>
             </ul>
          </div>
